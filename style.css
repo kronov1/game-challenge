@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+#conteudo {
+    background-image: linear-gradient(to bottom, #595358, #A4AC96)
+}
+
+#corpo {
+    background-color: white;
+    margin: auto;
+    width: 700px;
+    padding: 14px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+#titulo {
+    margin: auto;
+    padding-left: 10px;
+    font-size: 55px;
+    color: #313628;
+    width: 590px;
+    transition: color 0.8s, background-color 0.8s, border-radius 0.8s, width 0.8s, font-size 0.6s, width 0.6s;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+
+#titulo:hover {
+    color: #A4AC96;
+    background-color: #313628;
+    border-radius: 10px;
+    font-size: 60px;
+    width: 675px;
+}
+
+#subtitulo {
+    padding-left: 3px;
+    color: #313628;
+    padding-top: 30px;
+    border-top: 4px solid #313628;
+}
+
+#imagemP {
+    display: flex;
+    flex-direction: row;
+}
+
+#paragrafo-mordex {
+    padding-left: 7.5px;
+    text-align: justify;
+}
+
+#mordex {
+    width: 250px;
+    padding: 10px;
+    background-color: #A4AC96;
+    border-radius: 10px;
+    border-right: 3px solid #313628;
+    border-bottom: 3px solid #313628;
+    transition: transform 0.9s, width 0.8s;
+}
+
+#mordex:hover {
+   width: 243px;
+   transform: rotate(-1.2deg);
+}
+
+#status {
+    display: flex;
+    flex-direction: 35;
+    gap: 3.5px;
+}
+
+#status-logo {
+    display: flex;
+    flex-direction: column;
+    width: 25.5px;
+    gap: 2.3px;
+}
+
+#status-sts {
+    display: flex;
+    flex-direction: column;
+    width: 167.8px;
+    gap: 2.3px;
+}
+
+#status-paragrafo {
+
+}
+
+#skins-session {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#skinsP {
+    padding-left: 150px;
+}
+
+#skins {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#mordex1 {
+    transition: transform 0.5s, width 0.5s, padding-left 0.5s, position 0.5s, bottom 0.5s;
+}
+
+#mordex1:hover {
+    width: 150px;
+    transform: scale(1);
+    padding-left: 140px;
+    position: absolute;
+    bottom: 10px;
+    border-bottom: 4px solid #595358;
+    
+}
+
+#mordex2 {
+    transition: transform 0.5s, width 0.5s, padding-left 0.5s, position 0.5s, bottom 0.5s;
+}
+
+#mordex2:hover {
+    width: 150px;
+    transform: scale(1);
+    padding-left: 140px;
+    position: absolute;
+    bottom: 5px;
+    border-bottom: 4px solid #595358;
+}
+
+#mordex3 {
+    transition: transform 0.5s, width 0.5s, padding-left 0.5s, position 0.5s, bottom 0.5s, background-color 0.4s;
+}
+
+#mordex3:hover {
+    width: 150px;
+    transform: scale(1);
+    padding-left: 140px;
+    position: absolute;
+    bottom: 2px;
+    border-bottom: 4px solid #595358;
+}
+
+#mordex4 {
+    transition: transform 0.5s, width 0.5s, padding-left 0.5s, position 0.5s, bottom 0.5s, background-color 0.4s;
+}
+
+#mordex4:hover {
+    width: 150px;
+    transform: scale(1);
+    padding-left: 140px;
+    position: absolute;
+    bottom: 2px;
+    border-bottom: 4px solid #595358;
+}
+
+#mordex5 {
+    transition: transform 0.5s, width 0.5s, padding-left 0.5s, position 0.5s, bottom 0.5s, background-color 0.4s;
+}
+
+#mordex5:hover {
+    width: 150px;
+    transform: scale(1);
+    padding-left: 140px;
+    position: absolute;
+    bottom: 2px;
+    border-bottom: 4px solid #595358;
+}
+
+#mordex6 {
+    transition: transform 0.5s, width 0.5s, padding-left 0.5s, position 0.5s, bottom 0.5s, background-color 0.4s;
+}
+
+#mordex6:hover {
+    width: 150px;
+    transform: scale(1);
+    padding-left: 140px;
+    position: absolute;
+    bottom: 2px;
+    border-bottom: 4px solid #313628;
+}
+
+#historia {
+    text-align: justify;
+}
+
+#subtitulo-hist {
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    position: relative;
+    border-top: 4px solid #313628;
+}
+
+#historia-paragrafo {
+    text-align: justify;
+    transition: all 1s;
+    cursor: default;
+}
+
+#historia-paragrafo:hover {
+    background-color: #f7faf2;
+    padding: 10px;
+    border: 3px dashed #A4AC96;
+    border-radius: 20px;
+}
+
+#fundo {
+    border-radius: 3px;
+    transition: all 1s;
+}
+
+#fundo:hover {
+    background-color: #e6eed8;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px dashed #A4AC96;
+}
+
+#rodape {
+    text-align: center;
+    background-color: #f7faf2;
+    width: 708.1px;
+    margin: auto;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+}
+
+#button {
+    font-weight: 400px;
+    font-size: 24px;
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+}
+
+#button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    font-family: 'Sarala', sans-serif;
+}
+
+#button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+    font-family: 'Sarala', sans-serif;
+}
+
+#button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+    font-family: 'Sarala', sans-serif;
+}
